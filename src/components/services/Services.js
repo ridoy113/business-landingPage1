@@ -5,7 +5,7 @@ import './services.css';
 
 const Services = () => {
     return (
-        <div>
+        <div className='container'>
             <h1>hEllo</h1>
         </div>
     );
