@@ -1,3 +1,6 @@
-.container {
-    background-color: #F2F2F2;
+.container {}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
