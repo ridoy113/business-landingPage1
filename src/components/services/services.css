@@ -1,6 +1,18 @@
-.container {}
+.container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
 
 .box {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+}
+
+.main_box {
+    background-color: white;
+    text-align: start;
+    padding: 2rem;
 }
